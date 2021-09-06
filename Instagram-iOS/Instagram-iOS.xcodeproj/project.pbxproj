@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3B440326E6594A00900A0B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B440226E6594A00900A0B /* FeedCell.swift */; };
+		CF3B440626E65A8300900A0B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B440526E65A8300900A0B /* Extensions.swift */; };
 		CF5F457026E127FF004605FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F456F26E127FF004605FF /* AppDelegate.swift */; };
 		CF5F457226E127FF004605FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F457126E127FF004605FF /* SceneDelegate.swift */; };
 		CF5F457426E127FF004605FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F457326E127FF004605FF /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF3B440226E6594A00900A0B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CF3B440526E65A8300900A0B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CF5F456C26E127FF004605FF /* Instagram-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5F456F26E127FF004605FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF5F457126E127FF004605FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		CF5F458426E1282C004605FF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CF3B440526E65A8300900A0B /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		CF5F458826E1283B004605FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF3B440226E6594A00900A0B /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5F457426E127FF004605FF /* ViewController.swift in Sources */,
+				CF3B440326E6594A00900A0B /* FeedCell.swift in Sources */,
 				CF5F459526E12A67004605FF /* ImageSelectorController.swift in Sources */,
 				CF5F459826E12A7A004605FF /* NotificationController.swift in Sources */,
 				CF5F459226E12A51004605FF /* SearchController.swift in Sources */,
@@ -211,6 +218,7 @@
 				CF5F459B26E12A90004605FF /* ProfileController.swift in Sources */,
 				CF5F458F26E12A3E004605FF /* FeedController.swift in Sources */,
 				CF5F458B26E128DA004605FF /* MainTabController.swift in Sources */,
+				CF3B440626E65A8300900A0B /* Extensions.swift in Sources */,
 				CF5F457226E127FF004605FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
